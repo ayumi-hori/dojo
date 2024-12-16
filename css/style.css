@@ -1,0 +1,78 @@
+@charset "utf-8";
+html {
+    overflow-x:hidden;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+}
+/* ヘッダー */
+.header{
+    position: fixed;
+    width: 100%;
+}
+
+.header-wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #fff;
+    height: 70px;
+}
+
+.header-logo_name{
+    color: #C9011F;
+    font-size: 30px;
+    margin-left: 160px;
+}
+
+.header-menu{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    margin-right: 160px;
+}
+
+.header-button_red{
+    color: #fff;
+    background-color: #C9011F;
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 50px;
+}
+
+.header-button_white{
+    color: #C9011F;
+    font-size: 18px;
+    margin: 0 25px;
+}
+
+/* トップ */
+.top{
+    padding-top: 70px;
+}
+
+.free-button{
+    background-color: #C9011F;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: bold;
+    width: 30%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.resource-button{
+    background-color: #fff;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: #C9011F;
+    font-weight: bold;
+    width: 30%;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #C9011F; 
+}
+
+.top-img_phone{
+    display: none;
+}
